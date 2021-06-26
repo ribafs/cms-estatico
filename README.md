@@ -20,8 +20,7 @@ Tem desvantagens sim, como tudo nesta vida. Uma forte é não contar com os recu
 
 - Criar um site local com Joomla em /var/www/html/professor
 - Criar uma conta no Github 'ribafs' e um repositório 'ribafs.github.io'
-- Criar a pasta /home/ribafs/localhost
-- Clonar o repositório ribafs.github.io na pasta local /home/ribafs/localhost/professor
+- Clonar o repositório ribafs.github.io
 cd /home/ribafs/localhost
 git clone git@github.com:ribafs/ribafs.github.io.git professor
 chown -R ribafs:ribafs /home/ribafs/localhost
