@@ -56,6 +56,10 @@ Fique atento, pois caso tenha criado a chave do SSH com senha a mesma será soli
 
 ## Copiar também o último backup de professor para /home/ribafs/github/professor
 
+Sugestão para backup ágil de site com o Joomla
+
+https://github.com/ribafs/com_simplebackup
+
 ## Recursos
 
 Ao criar o site com o CMS rpecisamos ficar atentos, pois recursos que acessam ao banco como formulários, busca não irão funcionar, então não devemos incluir.
