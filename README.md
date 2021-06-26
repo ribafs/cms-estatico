@@ -21,13 +21,13 @@ Tem desvantagens sim, como tudo nesta vida. Uma forte é não contar com os recu
 - Criar um site local com Joomla em /var/www/html/professor
 - Criar uma conta no Github 'ribafs' e um repositório 'ribafs.github.io'
 - Clonar o repositório ribafs.github.io
-mkdir /home/ribafs/github
-cd /home/ribafs/github
-git clone git@github.com:ribafs/ribafs.github.io.git professor
-chown -R ribafs:ribafs /home/ribafs/localhost
-cd /home/ribafs/github/professor
-touch index.html
-echo '<script>location="professor.html"</script>' > index.html
+- mkdir /home/ribafs/github
+- cd /home/ribafs/github
+- git clone git@github.com:ribafs/ribafs.github.io.git professor
+- chown -R ribafs:ribafs /home/ribafs/localhost
+- cd /home/ribafs/github/professor
+- touch index.html
+- echo '<script>location="professor.html"</script>' > index.html
 
 Criar um script na pasta /usr/local/bin chamado cms, contendo:
 ```
