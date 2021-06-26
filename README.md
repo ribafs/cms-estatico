@@ -67,6 +67,12 @@ No Joomla alguns módulos que criei funcionam, como:
 - https://github.com/ribafs/mod-programador
 - https://github.com/ribafs/biblia-joomla
 
+## Demo
+
+Este site foi criado localmente com Joomla, usando o template Helix Ultimate e exportado desta forma:
+
+https://ribamar.net.br/
+
 ## Possibilidades:
 
 - Tecla de atalho para terminal executando o script 'cms'
