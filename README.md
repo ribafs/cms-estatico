@@ -28,7 +28,7 @@ Tem desvantagens sim, como tudo nesta vida. Uma forte é não contar com os recu
 - touch index.html
 - echo '<script>location="professor.html"</script>' > index.html
 
-Criar um script na pasta /usr/local/bin chamado cms, contendo:
+## Criar um script na pasta /usr/local/bin chamado cms, contendo:
 ```
 # Baixar um site completo. Já usei para baixar meu site criado em Joomla e converti para um site estático, que está aqui:
 # https://ribamar.net.br
