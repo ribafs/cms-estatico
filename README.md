@@ -21,34 +21,37 @@ Tem desvantagens sim, como tudo nesta vida. Uma forte é não contar com os recu
 - Criar um site local com Joomla em /var/www/html/professor
 - Criar uma conta no Github 'ribafs' e um repositório 'ribafs.github.io'
 - Clonar o repositório ribafs.github.io
-cd /home/ribafs/localhost
+mkdir /home/ribafs/github
+cd /home/ribafs/github
 git clone git@github.com:ribafs/ribafs.github.io.git professor
 chown -R ribafs:ribafs /home/ribafs/localhost
+cd /home/ribafs/github/professor
 touch index.html
 echo '<script>location="professor.html"</script>' > index.html
 
 Criar um script na pasta /usr/local/bin chamado cms, contendo:
-
+```
 # Baixar um site completo. Já usei para baixar meu site criado em Joomla e converti para um site estático, que está aqui:
 # https://ribamar.net.br
 wget \
      --recursive \
      --no-clobber \
-     -P /home/ribafs/localhost \
+     -P /home/ribafs \
      --page-requisites \
      --html-extension \
      --convert-links \
      --restrict-file-names=windows \
      --no-parent \
 http://localhost/professor
-cd /home/ribafs/localhost/professor
+cp -Ra /home/ribafs/localhost/* /home/ribafs/github/professor
+cd /home/ribafs/github/professor
 git add .
 git commit -m 'Update'
 git pull
 git push
 
 sudo chmod +x /usr/local/bin/cms
-
+```
 ## Observação
 
 Fique atento, pois caso tenha criado a chave do SSH com senha a mesma será solicitada duas vezes ao final
