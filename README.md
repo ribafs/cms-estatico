@@ -1,6 +1,6 @@
 # Static CMS
 
-## Crie seu site/blog com o CMS preferido e Hospede no Github
+## Crie um site/blog localmente com o CMS preferido e hospede no Github
 
 ## URL deste projeto
 
