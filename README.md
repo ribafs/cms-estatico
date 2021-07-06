@@ -85,7 +85,7 @@ https://ribamar.net.br/
 
 ## Testes
 
-Testado apenas em Linux com wget. Me parece que também funciona em Windows ou Mac usando um software como o Httrack.
+Testado apenas em Linux com wget. Me parece que também funciona em Windows ou Mac usando um software como o Httrack. Uma alternativa apra quem não usa Linux é instalar o VirtualBox e instalar nele um linux em máquina virtual. Uma sugestão é Linux Mint, pois é bem amigável.
 
 ## Licença
 
